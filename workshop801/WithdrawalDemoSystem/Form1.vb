@@ -58,7 +58,7 @@
             LabelResult.Text = "1000 : " & wd.FC1000 & vbNewLine &
                                 "500 : " & wd.FC500 & vbNewLine &
                                  "100 : " & wd.FC100
-
+            TextBalance.Text = balance - withdraw
         End If
 
     End Sub
